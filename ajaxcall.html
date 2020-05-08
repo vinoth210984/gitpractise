@@ -1,0 +1,29 @@
+<form method="post">
+    <button id="button_1" value="val_1" name="but1">button 1</button>
+    <button id="button_2" value="val_2" name="but2">button 2</button>
+    <input id="access_token" type="hidden" name="access_token" value="<?php echo $_SESSION['access_token']; ?>" />
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+<script>
+    $("button").click(function (e) {
+        alert(222);
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: "/pages/test/",
+            data: {
+                id: $(this).val(), // < note use of 'this' here
+                access_token: $("#access_token").val()
+            },
+            success: function (result) {
+                alert('ok');
+            },
+            error: function (result) {
+                alert('error');
+            }
+        });
+    });
+</script>
