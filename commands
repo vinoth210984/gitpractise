@@ -1,4 +1,4 @@
-//Commands to practise git
+//Commands to practise git by own
 git clone "git Repository" - Clone from github repository Example:from github
 git add dbcon.php - Particularly dbcon.php file from local machine
 git add * - All the files that have changes
@@ -7,3 +7,4 @@ git push origin master - Pushing the files to github repository
 git pull origin master - Pulling the file from github repository(both fetch and merge done)
 git fetch origin master - Will fetch the file from github and will not merge the changes
 git merge - Will merge the fetched files changes
+git status - to check the files which are in working area and staging area
