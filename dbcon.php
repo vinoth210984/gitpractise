@@ -1,5 +1,5 @@
 <?php
-//Done by vinoth
+//Done by vinoth and directly edited in github
 // Database configuration for Mysql 
 $dbHost     = "localhost"; 
 $dbUsername = "root";
