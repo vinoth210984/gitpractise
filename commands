@@ -8,3 +8,4 @@ git pull origin master - Pulling the file from github repository(both fetch and 
 git fetch origin master - Will fetch the file from github and will not merge the changes
 git merge - Will merge the fetched files changes
 git status - to check the files which are in working area and staging area
+git remote -v - To get all remote repositories
