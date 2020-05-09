@@ -1,8 +1,8 @@
 <?php
-// Database configuration
-$dbHost     = "localhost";
+// Database configuration for Mysql
+$dbHost     = "localhost"; 
 $dbUsername = "root";
-$dbPassword = "";
+$dbPassword = ""; //No Password
 $dbName     = "test";
 
 // Create database connection
