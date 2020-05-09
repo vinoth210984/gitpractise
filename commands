@@ -1,3 +1,5 @@
+//Commands to practise git
+
 git clone "git Repository" - Clone from github repository Example:from github
 git add dbcon.php - Particularly dbcon.php file from local machine
 git add * - All the files that have changes
