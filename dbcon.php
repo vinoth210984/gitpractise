@@ -1,5 +1,5 @@
 <?php
-//Done by vinoth and check
+//Done by vinoth and check the files
 // Database configuration for Mysql 
 $dbHost     = "localhost"; 
 $dbUsername = "root";
