@@ -13,3 +13,4 @@ git restore --staged commands - To restore the file once added to the staging ar
 git reset HEAD~ - To restore the file after commit.
 git log - To get the log of commits in the current branch
 git branch - Will show you the list of branch and also which branch we are in the git.
+git branch Branchname - To add new branch.
