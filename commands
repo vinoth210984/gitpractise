@@ -5,10 +5,11 @@ git add * - All the files that have changes.
 git commit -m "changes_09052020" - Comment for files committing.
 git push origin master - Pushing the files to github repository.
 git pull origin master - Pulling the file from github repository(both fetch and merge done).
-git fetch origin master - Will fetch the file from github and will not merge the changes.
+git fetch origin master- Will fetch the file from github and will not merge the changes.
 git merge - Will merge the fetched files changes.
 git status - to check the files which are in working area and staging area.
 git remote -v - To get all remote repositories from github.
 git restore --staged commands - To restore the file once added to the staging area.
 git reset HEAD~ - To restore the file after commit.
 git log - To get the log of commits in the current branch
+git branch - Will show you the list of branch and also which branch we are in the git.
