@@ -11,3 +11,4 @@ git status - to check the files which are in working area and staging area.
 git remote -v - To get all remote repositories from github.
 git restore --staged commands - To restore the file once added to the staging area.
 git reset HEAD~ - To restore the file after commit.
+git log - TO get the log of commits in the current branch
