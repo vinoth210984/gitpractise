@@ -14,3 +14,5 @@ git reset HEAD~ - To restore the file after commit.
 git log - To get the log of commits in the current branch
 git branch - Will show you the list of branch and also which branch we are in the git.
 git branch Branchname - To add new branch.
+git branch -d trunk - To delete the branch
+git brnach -D trunk - Forcefully deleting the branch.

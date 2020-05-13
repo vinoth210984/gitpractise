@@ -1,15 +1,13 @@
 <?php
 
-/*
+/* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-$input = 12321;
-$reverse = strrev($input);
-if ($input == $reverse) {
-    echo $input . " is a palindrome";
-} else {
-    echo $input . " is not a palindrome";
-}
+$input="This is Vinoth";
+//$string = "123,456,78,000";  
+$str_arr = preg_split ("/\ /", $input);  
+print_r($str_arr); 
+      
+?>
