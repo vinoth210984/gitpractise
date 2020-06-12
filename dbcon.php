@@ -1,8 +1,9 @@
 <?php
-// Database configuration
-$dbHost     = "localhost";
+//Done by vinoth and check the files for checking the trunk
+// Database configuration for Mysql 
+$dbHost     = "localhost"; 
 $dbUsername = "root";
-$dbPassword = "";
+$dbPassword = ""; //No Password
 $dbName     = "test";
 
 // Create database connection
